@@ -1,0 +1,624 @@
+
+
+/*fonts*/
+/*font*/
+/*Brandon start*/
+@font-face{
+	src:url(../font/brandon_grotesque/Brandon-regular.otf);
+	font-family: Brandon-regular;
+}
+@font-face{
+	src:url(../font/brandon-grotesque/Brandon-light.otf);
+	font-family: Brandon-light;
+}
+
+@font-face{
+	src:url(../font/brandon_grotesque/Brandon-medium.otf);
+	font-family: Brandon-medium;
+}
+@font-face{
+	src:url(../font/brandon-grotesque/Brandon-bold.otf);
+	font-family: Brandon-bold;
+}
+/*Brandon end*/
+/*cubano start*/
+@font-face{
+	src:url(../font/cubano/Cubano-Regular.otf);
+	font-family: Cubano-Regular;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: Brandon-regular;
+	font-size: 18px;
+	font-weight: 400;
+	color:#777777;
+	line-height: 20px;
+
+}
+/*banner start*/
+.banner{
+	min-height: 600px;
+	background-image: url(../images/escape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+
+}
+.container{
+	margin:0 auto;
+	width: 70%;
+	/*border:3px solid white;*/
+	overflow :hidden;
+}
+.b_content{
+	margin-top: 25px;
+	/*width: 30%;*/
+	/*border:1px solid red;*/
+	overflow:hidden;
+	float: left;
+}
+.logo{
+	float: left;
+}
+.b_content img{
+	/*margin:35px 15px;*/
+	/*width:100%;*/
+}
+
+.b_content span{
+	font-family: Cubano-Regular;
+	font-size: 25px;
+	font-weight: 400;
+	color:white;
+	display:inline-block;
+	    letter-spacing: 2px;
+
+	/*float:right;*/
+
+}
+
+/*menu start*/
+.menu{
+	 margin-top: 25px;
+	width: 50%;
+	/*border:1px solid red;*/
+	float: right;
+	
+}
+.menu ul{
+
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+.menu ul li a{
+	padding:17px 16px 0 10px;
+	color:white;
+	text-decoration: none;
+	font-weight: 500;
+	font-family: Brandon-medium;
+	text-transform: capitalize;
+/*float:right;*/
+}
+
+
+
+/*menu end*/
+/*banner start*/
+
+
+.container2{
+
+	margin:0 auto;
+	width:70%;
+	/*border:2px solid white;*/
+	text-align: center;
+	color:white;
+
+
+}
+.b_span2{
+	
+   margin-top: 136px;
+   
+	
+	
+
+}
+.b_span2 span{
+	font-size: 32px;
+	font-weight: 300;
+	font-family: Brandon-light;
+
+
+}
+
+
+.b_h1{
+
+	font-family: Brandon-bold;
+	font-size:60px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+
+}
+.b_h1 h1{
+	    /*margin: 1px 0 37px;*/
+}
+.lern{
+	/*width:200px;*/
+
+	
+
+
+}
+.lern button{
+	    padding: 7px 65px;
+	font-size: 23px;
+	font-weight: 700;
+	font-family:   Brandon-bold;
+	    color: white;
+	    /*border:2px solid white;*/
+	/*border:2px solid  transparent;*/
+	/*border-bottom:  transparent;*/
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+	    border: aliceblue;
+
+}
+
+.lern button:hover{
+
+	color:black;
+background-color: white;
+
+}
+
+
+
+
+/*banner end*/
+/*header end*/
+
+
+/*web start*/
+.web_b{
+	padding:90px 0;
+
+}
+.container3{
+	margin:0 auto;
+	width:65%;
+	/*border:1px solid black ;*/
+	overflow: hidden;
+}
+.web_content{
+	width:60%;
+	/*border:1px solid blue;*/
+	display:inline-block;
+}
+.c_h1{
+	    /*margin: 0 0 20px;*/
+	font-size: 58px ;
+	font-weight: 300;
+	font-family:Brandon-light;
+
+
+
+}
+.c_span{
+
+font-size: 58px ;
+/*color: #777777;*/
+	font-weight: 700;
+	font-family: Brandon-bold;
+
+}
+
+ .c_img{
+ 	width:30%;
+ 	float:right;
+ 	/*border: 1px solid green;*/
+ }
+ .c_img img{
+ 	float:right;
+ 	margin-top: 34px;
+ }
+
+/*web end*/
+/*brand start*/
+.brand{
+	padding:90px 0;
+
+
+	background-color: #fafafa;
+}
+
+.b_img{
+	   
+	width:30%;
+ 	float:left;
+ 	/*border: 1px solid green;*/
+}
+.brand_content{
+	width:60%;
+	/*border:1px solid blue;*/
+	display:inline-block;
+	float:right;
+
+}
+
+.c_h1 span{
+	font-size: 58px ;
+  color: #222222;
+	font-weight: 700;
+	font-family: Brandon-bold;
+
+
+}
+
+/*brand end*/
+/*service start*/
+
+
+
+.service {
+}
+
+.container3 {
+	width:65%;
+	/*border:1px solid black;*/
+	overflow:hidden;
+}
+
+.single_blog {
+	width:47%;
+	/*border:1px solid green;*/
+	overflow:hidden;
+	float:left;
+
+}
+.single_blog:nth-child(even){
+	/*background-color: red;*/
+	margin-left:54px;
+
+}
+
+.ser_logo {
+	width:20%;
+	/*border:1px solid black;*/
+	float:left;
+}
+.ser_logo img{
+	width:100%;
+}
+
+.ser_text {
+	width:65%;
+	/*border:1px solid black;*/
+	float: right;
+	margin-right: 40px;
+}
+
+.s_h2 {
+	margin:0 0 10px;
+	font-size: 22px ;
+  color: #222222;
+	font-weight: 700;
+	font-family: Brandon-bold;
+
+}
+
+.s_p2 {
+	font-family: Brandon-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color:#777777;
+	line-height: 20px;
+}
+
+/*service end*/
+/*awesome start*/
+
+.awesome{
+	background-color: #fafafa;
+	margin-top: 100px;
+}
+
+.container4{
+	margin:0 auto;
+	width:80%;
+	/*border:1px solid black;*/
+
+}
+.w_awe{
+
+	text-align: center;
+
+
+}
+
+.a_h3{
+	font-family: Brandon-regular;
+	font-size: 20px;
+	font-weight: 400;
+	color: #777777;
+}
+
+
+
+/*single blog start*/
+.s_blog {
+
+	/*border:1px solid green;*/
+	width: 100%;
+	overflow:hidden;
+}
+
+.blog_logo {
+	margin-top: 40px ;
+	/*border:1px solid green;*/
+	width: 20%;
+	float:left;
+}
+.blog_logo img{
+	width:100%;
+	border-radius: 100%;
+
+}
+
+.blog_text {
+	margin: 10% 17.5% 0 30px;
+	border:2px solid #f3f3f3;
+	width: 50%;
+	float:right;
+	background-color:white;
+	background: 
+	/*f3f3f3 */
+}
+.blog_p{
+	font-family: Brandon-regular;
+	font-size: 14px;
+	font-weight: 400;
+	color:blue;
+
+}
+
+
+/*single blog end*/
+.blog2_text{
+	margin: 50px 17.5% 0 30px;
+	border:2px solid #f3f3f3;
+	width: 50%;
+	float:left;
+	background-color:white;
+	background: 
+
+
+}
+.blog2_logo{
+	margin-top: 40px 0 ;
+	/*border:1px solid green;*/
+	width: 21%;
+	float:right;
+}
+
+}
+
+
+
+/*awesome end*/
+/*section cms start*/
+.cms{
+	background-color: white;
+
+}
+.cms_img{
+	    margin: 46px;
+}
+.cms_img img{
+	padding: 20px;
+
+}
+/*section cms end*/
+
+/*section amz start*/
+.amz_team{
+	background-color:#111111;
+
+}
+.amz_h1{
+	/*margin: 0 0 20px;*/
+	font-size: 58px ;
+	font-weight: 300;
+	font-family:Brandon-light;
+	color:white;
+
+}
+.amz_span{
+	font-size: 58px ;
+  color: white;
+	font-weight: 700;
+	font-family: Brandon-bold;
+
+}
+.amz_h3{
+	font-family: Brandon-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #777777;
+
+}
+
+
+
+/*single start*/
+
+
+
+.amz_wrapper {
+	    margin-bottom: 200px;
+	width:33%;
+	/*border: 1px solid yellow;*/
+	    text-align: center;
+	    overflow: hidden;
+	    float:left;
+
+
+}
+
+.sm_h3 {
+	margin:0 auto;
+	color:white;
+	font-weight: 700;
+	font-family: Brandon-bold;
+
+}
+
+.sm_span {
+	 padding: 10px 0 5px;
+	font-family: Brandon-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	display:inline-block;
+	     
+}
+
+.amz_wrapper2 {
+
+}
+.single_text{
+	    margin: 0 auto;
+    width: 51%;
+
+}
+.single_h3{
+	/*padding: 22%;*/
+	/*;*/
+
+	font-family: Brandon-regular;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+
+
+}
+/*single end*/
+
+
+/*section amz end*/
+
+
+/*contact start*/
+.contact{
+	background-color: #7690c5;
+}
+.contact_wrp{
+	width:40%;
+	/*border:1px solid black;*/
+	float: left;
+}
+.contact_h3 {
+	font-family: Brandon-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	line-height: 20px;
+
+
+}
+
+
+/*social first*/
+.social_wra{
+	    float: left;
+    margin-top: 40px
+	    margin-top: 40px;
+	overflow:hidden;
+
+}
+
+.social_img{
+	float:left;
+}
+
+.social_p{
+	       margin: 8px 10px 40px;
+    color: white;
+	float:left;
+}
+.single_blog:nth-child(even){
+	}
+
+
+/*social end*/
+
+/*cccccccc*/
+
+.c_form{
+	/*border: 1px solid blue;*/
+	width: 50%;
+	float: right;
+}
+.c_form form{}
+.c_form input {
+	width: 95%;
+	height: 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.c_form textarea{
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+#yname{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+#email{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+#message{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #7690c5;
+	
+}
+.text-p1{
+	text-align: center;
+
+}
+.text-p1 p {
+	font-family: Brandon_med;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	padding: 30px;
+}
+/*footer end*/
+
+
+
+
+/*contact end*/
